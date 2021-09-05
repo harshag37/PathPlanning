@@ -189,7 +189,7 @@ def get_clicked_pos(pos, rows, width):
 
 
 def main(win, width):
-	ROWS = 5
+	ROWS = 50 #reducing the size of ROWS decreases the simulation time
 	grid = make_grid(ROWS, width)
 
 	start = None
